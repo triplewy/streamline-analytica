@@ -1,0 +1,36 @@
+.Navbar {
+  display: flex;
+  padding: 0 10%;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.Navbar * {
+  display: flex;
+  margin: auto 0;
+}
+
+.Navbar>div.left p.logoTitle {
+  font-family: nasalization;
+  font-size: 28px;
+  color: #FF8300;
+}
+
+
+.Navbar img {
+  height: 80px;
+  width: 80px;
+  border-radius: 16px;
+  margin-right: 20px;
+}
+
+.Navbar>div.right {
+  display: flex;
+  margin-left: auto;
+}
+
+.Navbar>div.right>p {
+  font-size: 18px;
+  color: #FF8300;
+  margin-left: 20px;
+}

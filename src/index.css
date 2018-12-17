@@ -12,3 +12,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@font-face {
+  font-family: nasalization;
+  src: url('./Fonts/nasalization-rg.ttf');
+}
+
+.left {
+  display: flex;
+}
+
+.right {
+  display: flex;
+  margin-left: auto;
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron {
+  margin: 0;
+}
